@@ -1,0 +1,61 @@
+.header {
+	.container {
+		margin: 0 auto;
+		width: 100%;
+		max-width: $max-width;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		position: relative;
+
+		.hero-box {
+			position: relative;
+		}
+
+		.hero-box-text {
+			text-align: left;
+			position: absolute;
+			right: 0;
+			width: 1170px;
+
+			.hero-top-text {
+				@include text(16px, 700, $colorWhite, 0.1px, 24px);
+			}
+
+			.hero-heading {
+				@include text(58px, 700, $colorWhite, 0.2px, 80px);
+			}
+
+			.hero-bottom-text {
+				@include text(20px, 500, $colorWhite, 0.2px, 30px);
+			}
+		}
+	}
+
+	.nav {
+		max-width: $max-width;
+		width: 100%;
+		height: 91px;
+		line-height: 91px;
+		text-align: center;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translate(-50%);
+
+		.nav-logo {
+			@include text(24px, 700, $colorWhite, 0.1px, 32px);
+			margin-right: 10px;
+		}
+		.nav-menu {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			gap: 20px;
+
+			.nav-item {
+				@include text(14px, 700, $colorWhite, 0.2px, 24px);
+			}
+		}
+	}
+}

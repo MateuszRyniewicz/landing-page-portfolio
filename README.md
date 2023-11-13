@@ -1,0 +1,1 @@
+develop: stworzenie Header i footer z stylem komponentów

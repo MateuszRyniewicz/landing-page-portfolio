@@ -5,6 +5,10 @@
   padding: 0;
 }
 
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 img {
   width: 100%;
   height: 100%;
@@ -12,7 +16,7 @@ img {
      object-fit: cover;
 }
 
-ul {
+li {
   list-style: none;
 }
 
@@ -21,6 +25,128 @@ a {
   text-decoration: none;
 }
 
+button {
+  width: 137px;
+  height: 52px;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 0;
+  background-color: #8d5cf6;
+}
+
 .mb-10 {
   margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-40 {
+  margin-bottom: 40px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.ml-200 {
+  margin-left: 200px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.header .container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+.header .container .hero-box {
+  position: relative;
+}
+.header .container .hero-box-text {
+  text-align: left;
+  position: absolute;
+  right: 0;
+  width: 1170px;
+}
+.header .container .hero-box-text .hero-top-text {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.header .container .hero-box-text .hero-heading {
+  font-size: 58px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 80px;
+}
+.header .container .hero-box-text .hero-bottom-text {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 30px;
+}
+.header .nav {
+  max-width: 1440px;
+  width: 100%;
+  height: 91px;
+  line-height: 91px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+.header .nav .nav-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  margin-right: 10px;
+}
+.header .nav .nav-menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.header .nav .nav-menu .nav-item {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 24px;
 }/*# sourceMappingURL=style.css.map */
