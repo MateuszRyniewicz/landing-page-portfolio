@@ -1,1 +1,1 @@
-LP-1: stworzenie sekcji osiagniec ze stylami
+LP-2: tworzenie sekcji client i courses

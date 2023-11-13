@@ -38,6 +38,65 @@ button {
   background-color: #8d5cf6;
 }
 
+.box-text {
+  padding: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 35px;
+}
+.box-text .line {
+  width: 97px;
+  height: 4px;
+  background-color: #ff7b52;
+}
+.box-text .text-heading {
+  font-size: 40px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 50px;
+}
+.box-text .text-small {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.box-text .box-learn-more {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.box-text .box-learn-more .text-learn-more {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8d5cf6;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.box-text .box-learn-more .icon {
+  color: #8d5cf6;
+  font-size: 22px;
+}
+
 .mb-10 {
   margin-bottom: 10px;
 }
@@ -60,6 +119,10 @@ button {
 
 .ml-240 {
   margin-left: 240px;
+}
+
+.mr-50 {
+  margin-right: 50px;
 }
 
 .mr-85 {
@@ -180,4 +243,144 @@ button {
   letter-spacing: 0.1px;
   line-height: 24px;
   text-align: center;
+}
+
+.client {
+  background-color: #26335d;
+  height: 849px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 45px;
+}
+.client .container-cards {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+.client .container-cards .card {
+  width: 222px;
+  height: 288px;
+  background-color: #fff;
+  text-align: left;
+  padding: 28px 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+.client .container-cards .card .circle {
+  background-color: #ff7b52;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  aspect-ratio: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.client .container-cards .card .circle .circle-box {
+  width: 32px;
+  height: 32px;
+}
+.client .container-cards .card .card-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.client .container-cards .card .card-line {
+  width: 50px;
+  height: 2px;
+  background-color: #ff7b52;
+}
+.client .container-cards .card .card-text {
+  font-size: 14;
+  font-weight: 400;
+  color: #737373;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+  border: 1px solid red;
+}
+
+.courses {
+  height: 840px;
+  background-color: #26335d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 80px;
+}
+.courses .boxs-image {
+  width: 556px;
+  height: 471.61px;
+  position: relative;
+}
+.courses .box-img-small {
+  width: 35px;
+  height: 35px;
+}
+.courses .box-img-small-check {
+  position: absolute;
+  top: 50%;
+  left: 68px;
+}
+.courses .box-img-small-smile {
+  position: absolute;
+  top: 150px;
+  right: 95px;
+}
+.courses .box-img-square {
+  width: 132px;
+  height: 132px;
+  position: absolute;
+  top: 42%;
+  right: 120px;
+}
+.courses .box-img {
+  width: 233px;
+  height: 159px;
+  position: absolute;
+  bottom: -30px;
+  left: 0;
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,60 @@
+.client {
+	background-color: $dark-background-color;
+	height: 849px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 45px;
+
+	.container-cards {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		gap: 24px;
+
+		.card {
+			width: 222px;
+			height: 288px;
+			background-color: $white-color;
+			text-align: left;
+			padding: 28px 35px;
+			display: flex;
+			justify-content: center;
+			align-items: flex-start;
+			flex-direction: column;
+			gap: 20px;
+
+			.circle {
+				background-color: $secondary-color-1;
+				width: 72px;
+				height: 72px;
+				border-radius: 50%;
+				aspect-ratio: 1;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+
+				.circle-box {
+					width: 32px;
+					height: 32px;
+				}
+			}
+
+			.card-heading {
+				@include text(16px, 700, $black-color, 0.1px, 24px);
+			}
+
+			.card-line {
+				width: 50px;
+				height: 2px;
+				background-color: $secondary-color-1;
+			}
+
+			.card-text {
+				@include text(14, 400, $second-text-color, 0.2px, 20px);
+				border: 1px solid red;
+			}
+		}
+	}
+}

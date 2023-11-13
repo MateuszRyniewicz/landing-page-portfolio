@@ -1,1 +1,36 @@
+.box-text {
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	flex-direction: column;
+	gap: 35px;
 
+	.line {
+		width: 97px;
+		height: 4px;
+		background-color: $secondary-color-1;
+	}
+
+	.text-heading {
+		@include text(40px, 700, $white-color, 0.2px, 50px);
+	}
+
+	.text-small {
+		@include text(14px, 500, $white-color, 0.2px, 20px);
+	}
+
+	.box-learn-more {
+		display: flex;
+		justify-content: flex-start;
+		align-items: center;
+		.text-learn-more {
+			@include text(14px, 700, $primary-color, 0.2px, 24px);
+		}
+
+		.icon {
+			color: $primary-color;
+			font-size: 22px;
+		}
+	}
+}

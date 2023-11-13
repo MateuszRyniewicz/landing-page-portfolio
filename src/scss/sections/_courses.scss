@@ -1,0 +1,46 @@
+.courses {
+	height: 840px;
+	background-color: $dark-background-color;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 80px;
+
+	.boxs-image {
+		width: 556px;
+		height: 471.61px;
+		position: relative;
+	}
+
+	.box-img-small {
+		width: 35px;
+		height: 35px;
+	}
+
+	.box-img-small-check {
+		position: absolute;
+		top: 50%;
+		left: 68px;
+	}
+	.box-img-small-smile {
+		position: absolute;
+		top: 150px;
+		right: 95px;
+	}
+
+	.box-img-square {
+		width: 132px;
+		height: 132px;
+		position: absolute;
+		top: 42%;
+		right: 120px;
+	}
+
+	.box-img {
+		width: 233px;
+		height: 159px;
+		position: absolute;
+		bottom: -30px;
+		left: 0;
+	}
+}
