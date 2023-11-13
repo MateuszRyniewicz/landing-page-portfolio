@@ -11,24 +11,21 @@ const menuItems = [
 const Header = () => {
 	return (
 		<header className='header'>
-			<div className='container'>
-				<div className='hero-box'>
-					<img src={heroImage} alt='asd' class='hero-image' />
-				</div>
-				<div className='hero-box-text'>
-					<p className='hero-top-text mb-30'>For Better Future</p>
-					<h1 className='hero-heading mb-30'>
-						Best Learning <br /> Opportunities
-					</h1>
-					<p className='hero-bottom-text mb-30'>
-						Our goal is to make online <br /> education work for everyone
-					</p>
-					<button>Join Us</button>
-				</div>
+			<img src={heroImage} alt='asd' class='hero-image' />
+			<div className='hero-box-text'>
+				<p className='hero-top-text mb-30'>For Better Future</p>
+				<h1 className='hero-heading mb-30'>
+					Best Learning <br /> Opportunities
+				</h1>
+				<p className='hero-bottom-text mb-30'>
+					Our goal is to make online <br /> education work for everyone
+				</p>
+				<button>Join Us</button>
 			</div>
+
 			<nav className='nav'>
 				<div className='nav-menu'>
-					<p className='nav-logo'>
+					<p className='nav-logo mr-60'>
 						<Link>BrandName</Link>
 					</p>
 					{menuItems.map((item, index) => (
@@ -39,9 +36,9 @@ const Header = () => {
 						</li>
 					))}
 					<p>
-						<Link className='nav-item ml-200 mr-30'>Login</Link>
+						<Link className='nav-item ml-240'>Login</Link>
 					</p>
-					<button>JOIN US</button>
+					<button className='mr-85'>JOIN US</button>
 				</div>
 			</nav>
 		</header>

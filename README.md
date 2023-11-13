@@ -1,1 +1,1 @@
-develop: stworzenie Header i footer z stylem komponentów
+LP-1: stworzenie sekcji osiagniec ze stylami

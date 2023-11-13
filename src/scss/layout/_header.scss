@@ -1,34 +1,28 @@
 .header {
-	.container {
-		margin: 0 auto;
-		width: 100%;
-		max-width: $max-width;
-		display: flex;
-		justify-content: center;
-		align-items: center;
-		position: relative;
+	margin: 0 auto;
+	width: 100%;
+	max-width: $max-width;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
 
-		.hero-box {
-			position: relative;
+	.hero-box-text {
+		text-align: left;
+		position: absolute;
+		right: 0;
+		width: 1245px;
+
+		.hero-top-text {
+			@include text(16px, 700, $white-color, 0.1px, 24px);
 		}
 
-		.hero-box-text {
-			text-align: left;
-			position: absolute;
-			right: 0;
-			width: 1170px;
+		.hero-heading {
+			@include text(58px, 700, $white-color, 0.2px, 80px);
+		}
 
-			.hero-top-text {
-				@include text(16px, 700, $colorWhite, 0.1px, 24px);
-			}
-
-			.hero-heading {
-				@include text(58px, 700, $colorWhite, 0.2px, 80px);
-			}
-
-			.hero-bottom-text {
-				@include text(20px, 500, $colorWhite, 0.2px, 30px);
-			}
+		.hero-bottom-text {
+			@include text(20px, 500, $white-color, 0.2px, 30px);
 		}
 	}
 
@@ -44,17 +38,17 @@
 		transform: translate(-50%);
 
 		.nav-logo {
-			@include text(24px, 700, $colorWhite, 0.1px, 32px);
-			margin-right: 10px;
+			@include text(24px, 700, $white-color, 0.1px, 32px);
+		
 		}
 		.nav-menu {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-			gap: 20px;
+			gap: 21px;
 
 			.nav-item {
-				@include text(14px, 700, $colorWhite, 0.2px, 24px);
+				@include text(14px, 700, $white-color, 0.2px, 24px);
 			}
 		}
 	}

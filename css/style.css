@@ -58,15 +58,19 @@ button {
   margin-bottom: 50px;
 }
 
-.ml-200 {
-  margin-left: 200px;
+.ml-240 {
+  margin-left: 240px;
 }
 
-.mr-30 {
-  margin-right: 30px;
+.mr-85 {
+  margin-right: 85px;
 }
 
-.header .container {
+.mr-60 {
+  margin-right: 60px;
+}
+
+.header {
   margin: 0 auto;
   width: 100%;
   max-width: 1440px;
@@ -81,30 +85,27 @@ button {
           align-items: center;
   position: relative;
 }
-.header .container .hero-box {
-  position: relative;
-}
-.header .container .hero-box-text {
+.header .hero-box-text {
   text-align: left;
   position: absolute;
   right: 0;
-  width: 1170px;
+  width: 1245px;
 }
-.header .container .hero-box-text .hero-top-text {
+.header .hero-box-text .hero-top-text {
   font-size: 16px;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.1px;
   line-height: 24px;
 }
-.header .container .hero-box-text .hero-heading {
+.header .hero-box-text .hero-heading {
   font-size: 58px;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.2px;
   line-height: 80px;
 }
-.header .container .hero-box-text .hero-bottom-text {
+.header .hero-box-text .hero-bottom-text {
   font-size: 20px;
   font-weight: 500;
   color: #fff;
@@ -129,7 +130,6 @@ button {
   color: #fff;
   letter-spacing: 0.1px;
   line-height: 32px;
-  margin-right: 10px;
 }
 .header .nav .nav-menu {
   display: -webkit-box;
@@ -141,7 +141,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 20px;
+  gap: 21px;
 }
 .header .nav .nav-menu .nav-item {
   font-size: 14px;
@@ -149,4 +149,35 @@ button {
   color: #fff;
   letter-spacing: 0.2px;
   line-height: 24px;
+}
+
+.achievements {
+  background-color: #26335d;
+  height: 264px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 85px;
+}
+.achievements .text-number {
+  font-size: 58px;
+  font-weight: 700;
+  color: #8d5cf6;
+  letter-spacing: 0.2px;
+  line-height: 80px;
+  text-align: center;
+}
+.achievements .text-small {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+  text-align: center;
 }/*# sourceMappingURL=style.css.map */

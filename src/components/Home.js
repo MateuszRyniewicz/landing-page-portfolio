@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import Achievements from './Achievements';
 
 const Home = () => {
-  return (
-    <div>Home</div>
-  )
-}
+	return <Achievements />;
+};
 
-export default Home
+export default Home;
