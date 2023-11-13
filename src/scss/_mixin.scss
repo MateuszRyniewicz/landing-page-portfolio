@@ -1,0 +1,23 @@
+@mixin mq($breakpoint) {
+	@if map-has-key($breakpoints, $breakpoint) {
+		@media (max-width: #{map-get($breakpoints,$breakpoint)}) {
+			@content;
+		}
+	} @else {
+		@error 'There is no breakpoint as #{$size}';
+	}
+}
+
+@mixin text(
+	$fontSize: 16px,
+	$fontWeight: 500,
+	$color: #222,
+	$leterSpacing: 0,
+	$lineHeight: normal
+) {
+	font-size: $fontSize;
+	font-weight: $fontWeight;
+	color: $color;
+	letter-spacing: $leterSpacing;
+	line-height: $lineHeight;
+}

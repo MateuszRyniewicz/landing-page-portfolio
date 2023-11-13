@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/scss/_reset.scss","style.css","../src/scss/_normalize.scss","../src/scss/_magrins.scss"],"names":[],"mappings":"AAAA;EACC,8BAAA;UAAA,sBAAA;EACA,SAAA;EACA,UAAA;ACCD;;ACJA;EACC,WAAA;EACA,YAAA;EACA,oBAAA;KAAA,iBAAA;ADOD;;ACJA;EACC,gBAAA;ADOD;;ACJA;EACC,cAAA;EACA,qBAAA;ADOD;;AEnBA;EACC,mBAAA;AFsBD","file":"style.css"}
