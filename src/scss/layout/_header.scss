@@ -10,19 +10,90 @@
 	.hero-box-text {
 		text-align: left;
 		position: absolute;
-		right: 0;
-		width: 1245px;
+		left: 195px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+
+		@include mq(lg) {
+			background-color: black;
+			left: 160px;
+		}
+
+		@include mq(md) {
+			left: 110px;
+		}
+
+		@include mq(sm) {
+			left: 110px;
+			bottom: 80px;
+		}
+
+		@include mq(xs) {
+			bottom: 20px;
+		}
 
 		.hero-top-text {
 			@include text(16px, 700, $white-color, 0.1px, 24px);
+			@include mq(lg) {
+				font-size: 16px;
+				line-height: 20px;
+				margin-bottom: 15px;
+				background-color: black;
+			}
+			@include mq(md) {
+				background-color: green;
+				display: none;
+			}
+
+			@include mq(sm) {
+				background-color: blue;
+				display: none;
+			}
+
+			@include mq(xs) {
+				background-color: red;
+			}
 		}
 
 		.hero-heading {
 			@include text(58px, 700, $white-color, 0.2px, 80px);
+
+			@include mq(lg) {
+				background-color: black;
+				@include text(48px, 700, $white-color, 0.2px, 50px);
+			}
+
+			@include mq(md) {
+				background-color: green;
+				@include text(32px, 700, $white-color, 0.2px, 34px);
+			}
+
+			@include mq(sm) {
+				background-color: blue;
+			}
+
+			@include mq(xs) {
+				background-color: red;
+				font-size: 28px;
+				line-height: 25px;
+			}
 		}
 
 		.hero-bottom-text {
 			@include text(20px, 500, $white-color, 0.2px, 30px);
+
+			@include mq(md) {
+				@include text(16px, 700, $white-color, 0.2px, 18px);
+			}
+			@include mq(sm) {
+				display: none;
+			}
+
+			@include mq(xs) {
+				display: none;
+			}
 		}
 	}
 
@@ -39,7 +110,6 @@
 
 		.nav-logo {
 			@include text(24px, 700, $white-color, 0.1px, 32px);
-		
 		}
 		.nav-menu {
 			display: flex;

@@ -8,6 +8,20 @@
 	gap: 15px;
 	border: 1px solid red;
 
+	@include mq(lg) {
+	}
+
+	@include mq(md) {
+	}
+
+	@include mq(sm) {
+		flex-direction: column;
+	}
+
+	@include mq(xs) {
+		flex-direction: column;
+	}
+
 	.card {
 		width: 348px;
 		height: 622px;
@@ -208,8 +222,6 @@
 			.card-text-small {
 				@include text(12px, 500, $second-text-color, 0.2px, 16px);
 			}
-
-			
 		}
 	}
 }

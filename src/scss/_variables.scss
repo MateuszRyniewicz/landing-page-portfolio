@@ -17,3 +17,10 @@ $danger-color: #e74040;
 $warming-color: #ffce31;
 
 $muted-color: #bdbdbd;
+
+$breakpoints: (
+	xs: 576px,
+	sm: 768px,
+	md: 992px,
+	lg: 1200px,
+);

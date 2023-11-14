@@ -6,8 +6,21 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-
 	gap: 45px;
+
+	@include mq(sm) {
+		background-color: blue;
+		flex-direction: column;
+		text-align: center;
+		height: 1350px;
+	}
+
+	@include mq(xs) {
+		background-color: red;
+		flex-direction: column;
+		text-align: center;
+		height: 1450px;
+	}
 
 	.container-cards {
 		display: flex;

@@ -4,7 +4,7 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
 const Footer = () => {
 	return (
-		<footer>
+		<footer className='footer'>
 			<div className='footer-boxes'>
 				<div className='footer-box'>
 					<h4 className='footer-text-heading mb-10'>Company Info</h4>

@@ -36,7 +36,7 @@ const Header = () => {
 						</li>
 					))}
 					<p>
-						<Link className='nav-item ml-240'>Login</Link>
+						<Link className='nav-item'>Login</Link>
 					</p>
 					<button className='mr-85'>JOIN US</button>
 				</div>

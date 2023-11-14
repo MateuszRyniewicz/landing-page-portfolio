@@ -8,15 +8,68 @@
 	align-items: center;
 	gap: 80px;
 
+	@include mq(lg) {
+		font-size: 10px;
+		height: 600px;
+	}
+
+	@include mq(md) {
+		flex-direction: column;
+		height: 800px;
+	}
+
+	@include mq(sm) {
+		flex-direction: column;
+		height: 800px;
+
+	}
+
+	@include mq(xs) {
+		flex-direction: column;
+		height: 800px;
+	}
+
 	.boxs-image {
 		width: 556px;
 		height: 471.61px;
 		position: relative;
+
+		@include mq(lg) {
+			width: 500px;
+		}
+
+		@include mq(md) {
+			width: 450px;
+		}
+
+		@include mq(sm) {
+			margin-top: 50px;
+			width: 350px;
+		}
+
+		@include mq(xs) {
+			width: 350px;
+		}
 	}
 
 	.box-img-small {
 		width: 35px;
 		height: 35px;
+		@include mq(lg) {
+			display: flex;
+		}
+
+		@include mq(md) {
+			display: none;
+		}
+
+		@include mq(sm) {
+			display: none;
+		}
+
+		@include mq(xs) {
+			display: none;
+		}
 	}
 
 	.box-img-small-check {
@@ -36,6 +89,22 @@
 		position: absolute;
 		top: 42%;
 		right: 120px;
+
+		@include mq(lg) {
+			display: flex;
+		}
+
+		@include mq(md) {
+			display: none;
+		}
+
+		@include mq(sm) {
+			display: none;
+		}
+
+		@include mq(xs) {
+			display: none;
+		}
 	}
 
 	.box-img {
@@ -44,11 +113,43 @@
 		position: absolute;
 		bottom: -30px;
 		left: 0;
+
+		@include mq(lg) {
+			display: flex;
+		}
+
+		@include mq(md) {
+			display: none;
+		}
+
+		@include mq(sm) {
+			display: none;
+		}
+
+		@include mq(xs) {
+			display: none;
+		}
 	}
 
 	.box-blank {
 		width: 445px;
 		height: 200px;
 		border: 1px solid red;
+
+		@include mq(lg) {
+			font-size: 10px;
+		}
+
+		@include mq(md) {
+			display: none;
+		}
+
+		@include mq(sm) {
+			display: none;
+		}
+
+		@include mq(xs) {
+			display: none;
+		}
 	}
 }
