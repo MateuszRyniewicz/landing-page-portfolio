@@ -4,7 +4,6 @@
 	justify-content: center;
 	align-items: flex-start;
 	flex-direction: column;
-	gap: 35px;
 
 	.line {
 		width: 97px;
@@ -24,13 +23,20 @@
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
-		.text-learn-more {
-			@include text(14px, 700, $primary-color, 0.2px, 24px);
-		}
-
 		.icon {
 			color: $primary-color;
 			font-size: 22px;
 		}
 	}
+}
+.text-learn-more {
+	@include text(14px, 700, $primary-color, 0.2px, 24px);
+}
+
+.gap-35 {
+	gap: 35px;
+}
+
+.gap-10 {
+	gap: 10px;
 }

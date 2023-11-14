@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import heroImage from '../../image/hero-bg.png';
+import heroImage from '../../image/bg/hero-bg.png';
 const menuItems = [
 	{ name: 'Home', path: '/' },
 	{ name: 'Product', path: '/shop' },

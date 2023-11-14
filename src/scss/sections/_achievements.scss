@@ -1,4 +1,6 @@
 .achievements {
+	max-width: $max-width;
+	margin: 0 auto;
 	background-color: $dark-background-color;
 	height: 264px;
 	display: flex;

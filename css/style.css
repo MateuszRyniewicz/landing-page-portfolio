@@ -25,6 +25,11 @@ a {
   text-decoration: none;
 }
 
+section {
+  padding: 0;
+  margin: 0;
+}
+
 button {
   width: 137px;
   height: 52px;
@@ -53,7 +58,6 @@ button {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  gap: 35px;
 }
 .box-text .line {
   width: 97px;
@@ -85,16 +89,25 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
-.box-text .box-learn-more .text-learn-more {
+.box-text .box-learn-more .icon {
+  color: #8d5cf6;
+  font-size: 22px;
+}
+
+.text-learn-more {
   font-size: 14px;
   font-weight: 700;
   color: #8d5cf6;
   letter-spacing: 0.2px;
   line-height: 24px;
 }
-.box-text .box-learn-more .icon {
-  color: #8d5cf6;
-  font-size: 22px;
+
+.gap-35 {
+  gap: 35px;
+}
+
+.gap-10 {
+  gap: 10px;
 }
 
 .mb-10 {
@@ -115,6 +128,10 @@ button {
 
 .mb-50 {
   margin-bottom: 50px;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
 
 .ml-240 {
@@ -215,6 +232,8 @@ button {
 }
 
 .achievements {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #26335d;
   height: 264px;
   display: -webkit-box;
@@ -246,6 +265,8 @@ button {
 }
 
 .client {
+  max-width: 1440px;
+  margin: 0 auto;
   background-color: #26335d;
   height: 849px;
   display: -webkit-box;
@@ -338,7 +359,9 @@ button {
 }
 
 .courses {
-  height: 840px;
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 600px;
   background-color: #26335d;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -383,4 +406,210 @@ button {
   position: absolute;
   bottom: -30px;
   left: 0;
+}
+.courses .box-blank {
+  width: 445px;
+  height: 200px;
+  border: 1px solid red;
+}
+
+.cards {
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #26335d;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  border: 1px solid red;
+}
+.cards .card {
+  width: 348px;
+  height: 622px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.cards .card .card-box-image {
+  width: 100%;
+  height: 50%;
+  position: relative;
+}
+.cards .card .card-box-image .box-image {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
+.cards .card .card-box-image .card-box-sale {
+  width: 52px;
+  height: 24px;
+  border-radius: 3px;
+  background-color: #e74040;
+  position: absolute;
+  top: 20px;
+  left: 12px;
+  text-align: center;
+}
+.cards .card .card-box-image .card-box-sale .card-sale-text {
+  font-size: 14;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.cards .card .card-box-image .card-box-icons {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+.cards .card .card-box-image .card-box-icons .box-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cards .card .card-box-text {
+  width: 100%;
+  height: 50%;
+  padding: 0 25px 0px 25px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 10px;
+}
+.cards .card .card-box-text .card-box-top {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.cards .card .card-box-text .card-box-top .box-star {
+  background-color: #26335d;
+  border: none;
+  padding: 5px;
+  border-radius: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 5px;
+}
+.cards .card .card-box-text .card-box-top .box-star .text-star {
+  font-size: 12px;
+  font-weight: 500;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 16px;
+}
+.cards .card .card-box-text .card-box-top .box-star .star-icon {
+  font-size: 16px;
+  color: #ffce31;
+}
+.cards .card .card-box-text .card-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #111;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.cards .card .card-box-text .card-text-below {
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+  letter-spacing: 0.2px;
+  line-height: 20px;
+}
+.cards .card .card-box-text .card-box-download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+  color: #737373;
+}
+.cards .card .card-box-text .card-box-download .card-dowload-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.cards .card .card-box-text .card-text-price {
+  font-size: 16px;
+  font-weight: 700;
+  color: #bdbdbd;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.cards .card .card-box-text .card-text-price .card-text-price-color {
+  font-size: 16px;
+  font-weight: 700;
+  color: #8d5cf6;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.cards .card .card-box-text .card-button {
+  background-color: transparent;
+  color: #8d5cf6;
+  border: 1px solid #8d5cf6;
+  border-radius: 37px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 5px;
 }/*# sourceMappingURL=style.css.map */

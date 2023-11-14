@@ -1,1 +1,1 @@
-LP-2: tworzenie sekcji client i courses
+LP-3: tworzenie sekcji Watch
