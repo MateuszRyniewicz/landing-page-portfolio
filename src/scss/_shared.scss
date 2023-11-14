@@ -62,3 +62,14 @@
 		border-radius: 0 5px 5px 0;
 	}
 }
+
+.card-person-box-icons {
+	border: 1px solid red;
+	display: flex;
+	gap: 20px;
+
+	.card-peron-icon {
+		font-size: 24px;
+		color: $primary-color;
+	}
+}

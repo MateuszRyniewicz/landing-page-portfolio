@@ -44,7 +44,9 @@ button {
 }
 
 footer {
-  border: 1px solid red;
+  max-width: 1440px;
+  margin: 0 auto;
+  background-color: #26335d;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -58,6 +60,7 @@ footer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  gap: 35px;
 }
 
 .box-text {
@@ -149,6 +152,18 @@ footer {
 }
 .box-input .button-input {
   border-radius: 0 5px 5px 0;
+}
+
+.card-person-box-icons {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 20px;
+}
+.card-person-box-icons .card-peron-icon {
+  font-size: 24px;
+  color: #8d5cf6;
 }
 
 .mb-10 {
@@ -272,6 +287,69 @@ footer {
   font-size: 14px;
   font-weight: 700;
   color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.footer-boxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 35px;
+}
+.footer-boxes .footer-box {
+  padding: 0 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 20px;
+}
+.footer-boxes .footer-box .footer-text-heading {
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1px;
+  line-height: 24px;
+}
+.footer-boxes .footer-box .footer-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+.footer-box-below {
+  max-width: 1440px;
+  margin: 0 auto;
+  height: 74px;
+  line-height: 74px;
+  background-color: #fff;
+  width: 100%;
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.footer-box-below .footer-box-below-text {
+  font-size: 14px;
+  font-weight: 700;
+  color: #737373;
   letter-spacing: 0.2px;
   line-height: 24px;
 }
@@ -760,15 +838,4 @@ footer {
   color: #737373;
   letter-spacing: 0.2px;
   line-height: 16px;
-}
-.cards .card-person .card-person-box-text .card-person-box-icons {
-  border: 1px solid red;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  gap: 20px;
-}
-.cards .card-person .card-person-box-text .card-person-box-icons .card-peron-icon {
-  font-size: 24px;
-  color: #8d5cf6;
 }/*# sourceMappingURL=style.css.map */

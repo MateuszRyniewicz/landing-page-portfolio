@@ -209,16 +209,7 @@
 				@include text(12px, 500, $second-text-color, 0.2px, 16px);
 			}
 
-			.card-person-box-icons {
-				border: 1px solid red;
-				display: flex;
-				gap: 20px;
-
-				.card-peron-icon {
-					font-size: 24px;
-					color: $primary-color;
-				}
-			}
+			
 		}
 	}
 }

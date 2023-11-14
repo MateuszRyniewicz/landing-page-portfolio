@@ -1,2 +1,1 @@
-LP-5: Tworzenie card z nauczycielami
-LP-5 :Tworzenie seckji Education
+LP-6: Tworzenie Footer ze stylami
