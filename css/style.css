@@ -130,6 +130,10 @@ button {
   margin-bottom: 50px;
 }
 
+.mt-20 {
+  margin-top: 20px;
+}
+
 .mt-40 {
   margin-top: 40px;
 }
@@ -426,7 +430,7 @@ button {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: 10px;
+  gap: 15px;
   border: 1px solid red;
 }
 .cards .card {
@@ -612,4 +616,62 @@ button {
       -ms-flex-align: center;
           align-items: center;
   gap: 5px;
+}
+.cards .card-opinion {
+  width: 335px;
+  height: 318px;
+  background-color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 15px;
+}
+.cards .card-opinion .card-box-star {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+.cards .card-opinion .card-box-star .card-star {
+  color: #ffce31;
+  font-size: 20px;
+}
+.cards .card-opinion .card-text {
+  text-align: center;
+}
+.cards .card-opinion .card-box-signature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 20px;
+}
+.cards .card-opinion .card-box-signature .card-box-signature-image {
+  width: 50px;
+  height: 50px;
+}
+.cards .card-opinion .card-box-signature .card-signature {
+  font-size: 14px;
+  font-weight: 700;
+  color: #8d5cf6;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.cards .card-opinion .card-box-signature .card-signature .card-signature-black {
+  color: #111;
 }/*# sourceMappingURL=style.css.map */

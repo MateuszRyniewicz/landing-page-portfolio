@@ -1,1 +1,1 @@
-LP-3: tworzenie sekcji Watch
+LP-4: tworzenie sekcji Teacher 
