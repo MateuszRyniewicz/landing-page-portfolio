@@ -6,6 +6,10 @@ import bgCard3 from '../image/bg/bg-card-3.png';
 import person1 from '../image/person/person1.png';
 import person2 from '../image/person/person2.png';
 import person3 from '../image/person/person3.png';
+import person4 from '../image/person/person4.png';
+import person5 from '../image/person/person5.png';
+import person6 from '../image/person/person6.png';
+import person7 from '../image/person/person7.png';
 
 import { FaRegHeart } from 'react-icons/fa';
 import { FiShoppingCart } from 'react-icons/fi';
@@ -14,6 +18,9 @@ import { FaStar } from 'react-icons/fa';
 import { FaRegStar } from 'react-icons/fa';
 import { SlArrowRight } from 'react-icons/sl';
 import { BsDownload } from 'react-icons/bs';
+import { FaFacebook } from 'react-icons/fa';
+import { FaInstagram } from 'react-icons/fa';
+import { FaTwitter } from 'react-icons/fa';
 
 const Cards = () => {
 	return (
@@ -240,6 +247,76 @@ const Cards = () => {
 							Regina Miles <br />
 							<span className='card-signature-black'>Designer</span>
 						</p>
+					</div>
+				</div>
+			</section>
+			<section className='courses'>
+				<div className='box-text mr-50 gap-10'>
+					<p className='text-learn-more'>Team</p>
+					<h3 className='text-heading'>Our Experts Teacher</h3>
+					<p className='text-small'>
+						Problems trying to resolve the conflict between
+						<br />
+						the two major realms of Classical physics: Newtonian mechanics
+					</p>
+				</div>
+				<div className='box-blank'></div>
+			</section>
+			<section className='cards'>
+				<div className='card-person'>
+					<div className='card-person-box-image'>
+						<img src={person4} alt='adasd' />
+					</div>
+					<div className='card-person-box-text'>
+						<h4 className='card-heading'>Julian Jameson</h4>
+						<p className='card-text-small'>Profession</p>
+						<div className='card-person-box-icons'>
+							<FaFacebook className='card-peron-icon' />
+							<FaInstagram className='card-peron-icon' />
+							<FaTwitter className='card-peron-icon' />
+						</div>
+					</div>
+				</div>
+				<div className='card-person'>
+					<div className='card-person-box-image'>
+						<img src={person5} alt='adasd' />
+					</div>
+					<div className='card-person-box-text'>
+						<h4 className='card-heading'>Julian Jameson</h4>
+						<p className='card-text-small'>Profession</p>
+						<div className='card-person-box-icons'>
+							<FaFacebook className='card-peron-icon' />
+							<FaInstagram className='card-peron-icon' />
+							<FaTwitter className='card-peron-icon' />
+						</div>
+					</div>
+				</div>
+				<div className='card-person'>
+					<div className='card-person-box-image'>
+						<img src={person6} alt='adasd' />
+					</div>
+					<div className='card-person-box-text'>
+						<h4 className='card-heading'>Julian Jameson</h4>
+						<p className='card-text-small'>Profession</p>
+						<div className='card-person-box-icons'>
+							<FaFacebook className='card-peron-icon' />
+							<FaInstagram className='card-peron-icon' />
+							<FaTwitter className='card-peron-icon' />
+						</div>
+					</div>
+				</div>{' '}
+				<div className='card-person'>
+					<div className='card-person-box-image'>
+						<img src={person7} alt='adasd' />
+					</div>
+					<div className='card-person-box-text'>
+						<h4 className='card-heading'>Julian Jameson</h4>
+						<p className='card-text-small'>Profession</p>
+						<div className='card-person-box-icons'>
+							<FaFacebook className='card-peron-icon' />
+							<FaInstagram className='card-peron-icon' />
+							<FaTwitter className='card-peron-icon' />
+						</div>
 					</div>
 				</div>
 			</section>

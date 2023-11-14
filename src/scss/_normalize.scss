@@ -30,3 +30,11 @@ button {
 	line-height: 0;
 	background-color: #8d5cf6;
 }
+
+footer {
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}

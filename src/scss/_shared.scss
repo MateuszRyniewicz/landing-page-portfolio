@@ -11,14 +11,6 @@
 		background-color: $secondary-color-1;
 	}
 
-	.text-heading {
-		@include text(40px, 700, $white-color, 0.2px, 50px);
-	}
-
-	.text-small {
-		@include text(14px, 500, $white-color, 0.2px, 20px);
-	}
-
 	.box-learn-more {
 		display: flex;
 		justify-content: flex-start;
@@ -28,6 +20,14 @@
 			font-size: 22px;
 		}
 	}
+}
+
+.text-small {
+	@include text(14px, 500, $white-color, 0.2px, 20px);
+}
+
+.text-heading {
+	@include text(40px, 700, $white-color, 0.2px, 50px);
 }
 .text-learn-more {
 	@include text(14px, 700, $primary-color, 0.2px, 24px);
@@ -39,4 +39,26 @@
 
 .gap-10 {
 	gap: 10px;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.column {
+	flex-direction: column;
+}
+
+.box-input {
+	.input {
+		width: 551px;
+		height: 53px;
+		padding: 20px;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.button-input {
+		border-radius: 0 5px 5px 0;
+	}
 }

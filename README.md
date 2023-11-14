@@ -1,1 +1,2 @@
-LP-4: tworzenie sekcji Teacher 
+LP-5: Tworzenie card z nauczycielami
+LP-5 :Tworzenie seckji Education
