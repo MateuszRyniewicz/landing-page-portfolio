@@ -6,13 +6,6 @@
 	justify-content: center;
 	align-items: center;
 	gap: 15px;
-	border: 1px solid red;
-
-	@include mq(lg) {
-	}
-
-	@include mq(md) {
-	}
 
 	@include mq(sm) {
 		flex-direction: column;
@@ -206,7 +199,6 @@
 		}
 
 		.card-person-box-text {
-			border: 1px solid red;
 			height: 40%;
 			padding: 30px;
 			display: flex;

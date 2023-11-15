@@ -1,6 +1,9 @@
 import React from 'react';
+
 import { Link } from 'react-router-dom';
+
 import heroImage from '../../image/bg/hero-bg.png';
+
 const menuItems = [
 	{ name: 'Home', path: '/' },
 	{ name: 'Product', path: '/shop' },
@@ -11,7 +14,7 @@ const menuItems = [
 const Header = () => {
 	return (
 		<header className='header'>
-			<img src={heroImage} alt='asd' class='hero-image' />
+			<img src={heroImage} alt='hero heading' class='hero-image' />
 			<nav className='nav'>
 				<p className='nav-logo'>BrandName</p>
 				<ul className='nav-list'>
@@ -27,7 +30,6 @@ const Header = () => {
 				</div>
 			</nav>
 			<nav className='nav-mobile'>
-				<p className='nav-logo'>BrandName</p>
 				<ul className='nav-list'>
 					{menuItems.map((item, i) => (
 						<li className='nav-item' key={i}>
@@ -38,27 +40,14 @@ const Header = () => {
 				<p className='nav-login'>Login</p>
 				<button>JOIN US</button>
 			</nav>
+			<div className='box-hero-text'>
+				<p>For Better Future</p>
+				<h1>Best Learning Opportunities</h1>
+				<p>Our goal is to make online education work for everyone</p>
+				<button>Join Us</button>
+			</div>
 		</header>
 	);
 };
 
 export default Header;
-
-/* <nav className='nav nav-mobile'>
-	<div className='nav-menu'>
-		<p className='nav-logo mr-60'>
-			<Link>BrandName</Link>
-		</p>
-		{menuItems.map((item, index) => (
-			<li key={index}>
-				<Link className='nav-item' to={item.path}>
-					{item.name}
-				</Link>
-			</li>
-		))}
-		<p>
-			<Link className='nav-item'>Login</Link>
-		</p>
-		<button>JOIN US</button>
-	</div>
-</nav>; */

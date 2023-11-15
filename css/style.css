@@ -25,11 +25,6 @@ a {
   text-decoration: none;
 }
 
-section {
-  padding: 0;
-  margin: 0;
-}
-
 button {
   width: 137px;
   height: 52px;
@@ -132,7 +127,6 @@ button {
 }
 @media (max-width: 576px) {
   .text-small {
-    border: 1px solid red;
     text-align: center;
   }
 }
@@ -161,7 +155,6 @@ button {
 }
 @media (max-width: 576px) {
   .text-heading {
-    border: 1px solid red;
     text-align: center;
   }
 }
@@ -174,38 +167,17 @@ button {
   line-height: 24px;
 }
 
-.gap-35 {
-  gap: 35px;
-}
-
-.gap-10 {
-  gap: 10px;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.column {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
 .box-input .input {
-  width: 551px;
-  height: 53px;
-  padding: 20px;
+  padding: 16px 96px;
   font-size: 14px;
   font-weight: 500;
+  text-align: center;
 }
 .box-input .button-input {
   border-radius: 0 5px 5px 0;
 }
 
 .card-person-box-icons {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -244,14 +216,6 @@ button {
   margin-top: 40px;
 }
 
-.ml-240 {
-  margin-left: 240px;
-}
-
-.mr-50 {
-  margin-right: 50px;
-}
-
 .mr-85 {
   margin-right: 85px;
 }
@@ -261,15 +225,17 @@ button {
 }
 
 .header {
+  position: relative;
+  max-width: 1440px;
+  margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: relative;
+  z-index: -1;
 }
 .header .nav {
   position: absolute;
   top: 0;
-  border: 1px solid red;
   width: 100%;
   height: 91px;
   line-height: 91px;
@@ -282,16 +248,6 @@ button {
       -ms-flex-align: center;
           align-items: center;
 }
-@media (max-width: 1200px) {
-  .header .nav {
-    background-color: black;
-  }
-}
-@media (max-width: 992px) {
-  .header .nav {
-    background-color: green;
-  }
-}
 @media (max-width: 768px) {
   .header .nav {
     display: none;
@@ -303,7 +259,6 @@ button {
   }
 }
 .header .nav .nav-list {
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -343,11 +298,10 @@ button {
   display: none;
   position: absolute;
   top: 0;
-  width: 225px;
-  height: 360px;
-  padding: 35px;
+  padding: 16px;
   margin: 0 auto;
   text-align: center;
+  z-index: 200;
 }
 @media (max-width: 768px) {
   .header .nav-mobile {
@@ -358,9 +312,6 @@ button {
   .header .nav-mobile {
     display: block;
   }
-}
-.header .nav-mobile .nav-list {
-  margin-bottom: 30px;
 }
 .header .nav-mobile .nav-list .nav-item {
   font-size: 14px;
@@ -377,6 +328,16 @@ button {
   line-height: 32px;
   margin-bottom: 30px;
 }
+@media (max-width: 768px) {
+  .header .nav-mobile .nav-logo {
+    margin-bottom: 6px;
+  }
+}
+@media (max-width: 576px) {
+  .header .nav-mobile .nav-logo {
+    margin-bottom: 6px;
+  }
+}
 .header .nav-mobile .nav-login {
   font-size: 14px;
   font-weight: 700;
@@ -384,6 +345,26 @@ button {
   letter-spacing: 0.2px;
   line-height: 24px;
   margin-bottom: 30px;
+}
+.header .box-hero-text {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  -webkit-transform: translate(-30%, -40%);
+          transform: translate(-30%, -40%);
+  padding: 20px;
+  text-align: left;
+  z-index: 0;
+}
+@media (max-width: 768px) {
+  .header .box-hero-text {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .header .box-hero-text {
+    display: none;
+  }
 }
 
 .footer {
@@ -467,7 +448,6 @@ button {
   line-height: 74px;
   background-color: #fff;
   width: 100%;
-  border: 1px solid red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -556,7 +536,6 @@ button {
 }
 @media (max-width: 768px) {
   .client {
-    background-color: blue;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -567,7 +546,6 @@ button {
 }
 @media (max-width: 576px) {
   .client {
-    background-color: red;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -651,7 +629,6 @@ button {
   color: #737373;
   letter-spacing: 0.2px;
   line-height: 20px;
-  border: 1px solid red;
 }
 
 .courses {
@@ -826,7 +803,6 @@ button {
 .courses .box-blank {
   width: 445px;
   height: 200px;
-  border: 1px solid red;
 }
 @media (max-width: 1200px) {
   .courses .box-blank {
@@ -863,7 +839,6 @@ button {
       -ms-flex-align: center;
           align-items: center;
   gap: 15px;
-  border: 1px solid red;
 }
 @media (max-width: 768px) {
   .cards {
@@ -1136,7 +1111,6 @@ button {
   overflow: hidden;
 }
 .cards .card-person .card-person-box-text {
-  border: 1px solid red;
   height: 40%;
   padding: 30px;
   display: -webkit-box;

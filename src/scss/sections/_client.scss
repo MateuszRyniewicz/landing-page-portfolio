@@ -9,14 +9,12 @@
 	gap: 45px;
 
 	@include mq(sm) {
-		background-color: blue;
 		flex-direction: column;
 		text-align: center;
 		height: 1350px;
 	}
 
 	@include mq(xs) {
-		background-color: red;
 		flex-direction: column;
 		text-align: center;
 		height: 1450px;
@@ -69,7 +67,6 @@
 
 			.card-text {
 				@include text(14, 400, $second-text-color, 0.2px, 20px);
-				border: 1px solid red;
 			}
 		}
 	}

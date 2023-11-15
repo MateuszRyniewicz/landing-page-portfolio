@@ -1,1 +1,1 @@
-LP-7: Refaktoryzacja headera
+LP-8: Refaktoryzacja całego projektu

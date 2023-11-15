@@ -1,4 +1,5 @@
 import React from 'react';
+
 import { FiChevronRight } from 'react-icons/fi';
 
 import icon1 from '../image/icons/icon1.png';
@@ -6,9 +7,11 @@ import icon2 from '../image/icons/icon2.png';
 import icon3 from '../image/icons/icon3.png';
 
 const Client = () => {
+
 	return (
+
 		<section className='client'>
-			<div className='box-text mr-50 gap-35'>
+			<div className='box-text gap-35'>
 				<div className='line'></div>
 				<h3 className='text-heading'>Every Client Matters</h3>
 				<p className='text-small'>

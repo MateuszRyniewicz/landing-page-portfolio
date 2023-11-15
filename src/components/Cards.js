@@ -1,4 +1,5 @@
 import React from 'react';
+
 import bgCard from '../image/bg/bg-card.png';
 import bgCard2 from '../image/bg/bg-card-2.png';
 import bgCard3 from '../image/bg/bg-card-3.png';
@@ -29,9 +30,8 @@ const Cards = () => {
 				<div className='card'>
 					<div className='card-box-image'>
 						<div className='box-image'>
-							<img src={bgCard} />
+							<img src={bgCard} alt='card yellow with blue' />
 						</div>
-
 						<div className='card-box-sale'>
 							<p className='card-sale-text'>Sale</p>
 						</div>
@@ -75,9 +75,8 @@ const Cards = () => {
 				<div className='card'>
 					<div className='card-box-image'>
 						<div className='box-image'>
-							<img src={bgCard2} />
+							<img src={bgCard2} alt='card yellow with blue' />
 						</div>
-
 						<div className='card-box-sale'>
 							<p className='card-sale-text'>Sale</p>
 						</div>
@@ -121,9 +120,8 @@ const Cards = () => {
 				<div className='card'>
 					<div className='card-box-image'>
 						<div className='box-image'>
-							<img src={bgCard3} />
+							<img src={bgCard3} alt='card yellow with blue' />
 						</div>
-
 						<div className='card-box-sale'>
 							<p className='card-sale-text'>Sale</p>
 						</div>
@@ -165,7 +163,6 @@ const Cards = () => {
 					</div>
 				</div>
 			</section>
-
 			<section className='courses'>
 				<div className='box-text mr-50 gap-10'>
 					<p className='text-learn-more'>Join Us</p>
@@ -178,7 +175,6 @@ const Cards = () => {
 				</div>
 				<div className='box-blank'></div>
 			</section>
-
 			<section className='cards'>
 				<div className='card-opinion'>
 					<div className='card-box-star mt-20'>
@@ -195,7 +191,7 @@ const Cards = () => {
 					</p>
 					<div className='card-box-signature'>
 						<div className='card-box-signature-image'>
-							<img src={person1} />
+							<img src={person1} alt='person' />
 						</div>
 						<p className='card-signature'>
 							Regina Miles <br />{' '}
@@ -218,7 +214,7 @@ const Cards = () => {
 					</p>
 					<div className='card-box-signature'>
 						<div className='card-box-signature-image'>
-							<img src={person2} />
+							<img src={person2} alt='person' />
 						</div>
 						<p className='card-signature'>
 							Regina Miles <br />{' '}
@@ -241,7 +237,7 @@ const Cards = () => {
 					</p>
 					<div className='card-box-signature'>
 						<div className='card-box-signature-image'>
-							<img src={person3} />
+							<img src={person3} alt='person' />
 						</div>
 						<p className='card-signature'>
 							Regina Miles <br />
@@ -265,7 +261,7 @@ const Cards = () => {
 			<section className='cards'>
 				<div className='card-person'>
 					<div className='card-person-box-image'>
-						<img src={person4} alt='adasd' />
+						<img src={person4} alt='person' />
 					</div>
 					<div className='card-person-box-text'>
 						<h4 className='card-heading'>Julian Jameson</h4>
@@ -279,7 +275,7 @@ const Cards = () => {
 				</div>
 				<div className='card-person'>
 					<div className='card-person-box-image'>
-						<img src={person5} alt='adasd' />
+						<img src={person5} alt='person' />
 					</div>
 					<div className='card-person-box-text'>
 						<h4 className='card-heading'>Julian Jameson</h4>
@@ -293,7 +289,7 @@ const Cards = () => {
 				</div>
 				<div className='card-person'>
 					<div className='card-person-box-image'>
-						<img src={person6} alt='adasd' />
+						<img src={person6} alt='person' />
 					</div>
 					<div className='card-person-box-text'>
 						<h4 className='card-heading'>Julian Jameson</h4>
@@ -304,10 +300,10 @@ const Cards = () => {
 							<FaTwitter className='card-peron-icon' />
 						</div>
 					</div>
-				</div>{' '}
+				</div>
 				<div className='card-person'>
 					<div className='card-person-box-image'>
-						<img src={person7} alt='adasd' />
+						<img src={person7} alt='person' />
 					</div>
 					<div className='card-person-box-text'>
 						<h4 className='card-heading'>Julian Jameson</h4>

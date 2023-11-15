@@ -4,6 +4,7 @@
 	justify-content: center;
 	align-items: flex-start;
 	flex-direction: column;
+
 	@include mq(lg) {
 		align-items: center;
 	}
@@ -30,6 +31,7 @@
 		display: flex;
 		justify-content: flex-start;
 		align-items: center;
+
 		.icon {
 			color: $primary-color;
 			font-size: 22px;
@@ -52,7 +54,6 @@
 	}
 
 	@include mq(xs) {
-		border: 1px solid red;
 		text-align: center;
 	}
 }
@@ -73,7 +74,6 @@
 	}
 
 	@include mq(xs) {
-		border: 1px solid red;
 		text-align: center;
 	}
 }
@@ -81,29 +81,12 @@
 	@include text(14px, 700, $primary-color, 0.2px, 24px);
 }
 
-.gap-35 {
-	gap: 35px;
-}
-
-.gap-10 {
-	gap: 10px;
-}
-
-.text-center {
-	text-align: center;
-}
-
-.column {
-	flex-direction: column;
-}
-
 .box-input {
 	.input {
-		width: 551px;
-		height: 53px;
-		padding: 20px;
+		padding: 16px 96px;
 		font-size: 14px;
 		font-weight: 500;
+		text-align: center;
 	}
 
 	.button-input {
@@ -112,7 +95,6 @@
 }
 
 .card-person-box-icons {
-	border: 1px solid red;
 	display: flex;
 	gap: 20px;
 

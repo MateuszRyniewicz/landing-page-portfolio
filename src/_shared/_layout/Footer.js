@@ -1,8 +1,11 @@
 import React from 'react';
+
 import { FaFacebook } from 'react-icons/fa';
 import { FaInstagram } from 'react-icons/fa';
 import { FaTwitter } from 'react-icons/fa';
+
 const Footer = () => {
+	
 	return (
 		<footer className='footer'>
 			<div className='footer-boxes'>

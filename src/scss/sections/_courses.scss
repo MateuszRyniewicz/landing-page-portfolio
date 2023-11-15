@@ -21,7 +21,6 @@
 	@include mq(sm) {
 		flex-direction: column;
 		height: 800px;
-
 	}
 
 	@include mq(xs) {
@@ -134,7 +133,6 @@
 	.box-blank {
 		width: 445px;
 		height: 200px;
-		border: 1px solid red;
 
 		@include mq(lg) {
 			font-size: 10px;

@@ -1,5 +1,7 @@
 import React from 'react';
+
 import { FiChevronRight } from 'react-icons/fi';
+
 import girlBooks from '../image/technology1.png';
 import check from '../image/check.png';
 import image5 from '../image/image5.png';
@@ -12,23 +14,23 @@ const Courses = () => {
 		<>
 			<section className='courses'>
 				<div className='boxs-image'>
-					<img src={girlBooks} />
+					<img src={girlBooks} alt='girl' />
 
 					<div className='box-img-small  box-img-small-check'>
-						<img src={check} />
+						<img src={check} alt='check' />
 					</div>
 					<div className='box-img-square'>
-						<img src={image6} />
+						<img src={image6} alt='square' />
 					</div>
 					<div className='box-img-small box-img-small-smile'>
-						<img src={smile} />
+						<img src={smile} alt='smile' />
 					</div>
 					<div className='box-img'>
-						<img src={image5} />
+						<img src={image5} alt='box' />
 					</div>
 				</div>
 
-				<div className='box-text mr-50 gap-35'>
+				<div className='box-text'>
 					<div className='line'></div>
 					<h3 className='text-heading'>Most Popular Courses</h3>
 					<p className='text-small'>
@@ -45,7 +47,7 @@ const Courses = () => {
 				</div>
 			</section>
 			<section className='courses'>
-				<div className='box-text mr-50 gap-35'>
+				<div className='box-text'>
 					<div className='line'></div>
 					<h3 className='text-heading'>Watch our Courses</h3>
 					<p className='text-small'>
@@ -65,7 +67,7 @@ const Courses = () => {
 				</div>
 			</section>
 			<section className='courses'>
-				<div className='box-text mr-50 gap-10'>
+				<div className='box-text'>
 					<p className='text-learn-more'>Welcone</p>
 					<h3 className='text-heading'>Approdable Packages</h3>
 					<p className='text-small'>

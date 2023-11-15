@@ -1,9 +1,11 @@
 import React from 'react';
-import { FiChevronRight } from 'react-icons/fi';
+
 const Education = () => {
+
 	return (
-		<section className='client text-center gap-10'>
-			<div style={{ border: '1px solid red' }}>
+
+		<section className='client'>
+			<div>
 				<p className='text-learn-more mb-10'>Newsletter</p>
 				<h3 className='text-heading mb-10'>Get Quality Education</h3>
 				<p className='text-small mb-40'>

@@ -1,7 +1,9 @@
 import React from 'react';
 
 const Achievements = () => {
+
 	return (
+		
 		<section className='achievements'>
 			<div className='box'>
 				<h3 className='text-number'>15k</h3>
