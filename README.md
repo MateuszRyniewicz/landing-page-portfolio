@@ -1,1 +1,1 @@
-LP-6: Tworzenie Footer ze stylami oraz RWD
+LP-7: Refaktoryzacja headera

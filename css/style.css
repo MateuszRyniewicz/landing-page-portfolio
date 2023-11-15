@@ -261,168 +261,76 @@ button {
 }
 
 .header {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 1440px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: relative;
 }
-.header .hero-box-text {
-  text-align: left;
-  position: absolute;
-  left: 195px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-@media (max-width: 1200px) {
-  .header .hero-box-text {
-    background-color: black;
-    left: 160px;
-  }
-}
-@media (max-width: 992px) {
-  .header .hero-box-text {
-    left: 110px;
-  }
-}
-@media (max-width: 768px) {
-  .header .hero-box-text {
-    left: 110px;
-    bottom: 80px;
-  }
-}
-@media (max-width: 576px) {
-  .header .hero-box-text {
-    bottom: 20px;
-  }
-}
-.header .hero-box-text .hero-top-text {
-  font-size: 16px;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.1px;
-  line-height: 24px;
-}
-@media (max-width: 1200px) {
-  .header .hero-box-text .hero-top-text {
-    font-size: 16px;
-    line-height: 20px;
-    margin-bottom: 15px;
-    background-color: black;
-  }
-}
-@media (max-width: 992px) {
-  .header .hero-box-text .hero-top-text {
-    background-color: green;
-    display: none;
-  }
-}
-@media (max-width: 768px) {
-  .header .hero-box-text .hero-top-text {
-    background-color: blue;
-    display: none;
-  }
-}
-@media (max-width: 576px) {
-  .header .hero-box-text .hero-top-text {
-    background-color: red;
-  }
-}
-.header .hero-box-text .hero-heading {
-  font-size: 58px;
-  font-weight: 700;
-  color: #fff;
-  letter-spacing: 0.2px;
-  line-height: 80px;
-}
-@media (max-width: 1200px) {
-  .header .hero-box-text .hero-heading {
-    background-color: black;
-    font-size: 48px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.2px;
-    line-height: 50px;
-  }
-}
-@media (max-width: 992px) {
-  .header .hero-box-text .hero-heading {
-    background-color: green;
-    font-size: 32px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.2px;
-    line-height: 34px;
-  }
-}
-@media (max-width: 768px) {
-  .header .hero-box-text .hero-heading {
-    background-color: blue;
-  }
-}
-@media (max-width: 576px) {
-  .header .hero-box-text .hero-heading {
-    background-color: red;
-    font-size: 28px;
-    line-height: 25px;
-  }
-}
-.header .hero-box-text .hero-bottom-text {
-  font-size: 20px;
-  font-weight: 500;
-  color: #fff;
-  letter-spacing: 0.2px;
-  line-height: 30px;
-}
-@media (max-width: 992px) {
-  .header .hero-box-text .hero-bottom-text {
-    font-size: 16px;
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: 0.2px;
-    line-height: 18px;
-  }
-}
-@media (max-width: 768px) {
-  .header .hero-box-text .hero-bottom-text {
-    display: none;
-  }
-}
-@media (max-width: 576px) {
-  .header .hero-box-text .hero-bottom-text {
-    display: none;
-  }
-}
 .header .nav {
-  max-width: 1440px;
+  position: absolute;
+  top: 0;
+  border: 1px solid red;
   width: 100%;
   height: 91px;
   line-height: 91px;
-  text-align: center;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-transform: translate(-50%);
-          transform: translate(-50%);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+@media (max-width: 1200px) {
+  .header .nav {
+    background-color: black;
+  }
+}
+@media (max-width: 992px) {
+  .header .nav {
+    background-color: green;
+  }
+}
+@media (max-width: 768px) {
+  .header .nav {
+    display: none;
+  }
+}
+@media (max-width: 576px) {
+  .header .nav {
+    display: none;
+  }
+}
+.header .nav .nav-list {
+  border: 1px solid red;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 21px;
+}
+.header .nav .nav-list .nav-item {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.header .nav .nav-box-login {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+}
+.header .nav .nav-box-login .nav-login {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 24px;
 }
 .header .nav .nav-logo {
   font-size: 24px;
@@ -431,24 +339,51 @@ button {
   letter-spacing: 0.1px;
   line-height: 32px;
 }
-.header .nav .nav-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  gap: 21px;
+.header .nav-mobile {
+  display: none;
+  position: absolute;
+  top: 0;
+  width: 225px;
+  height: 360px;
+  padding: 35px;
+  margin: 0 auto;
+  text-align: center;
 }
-.header .nav .nav-menu .nav-item {
+@media (max-width: 768px) {
+  .header .nav-mobile {
+    display: block;
+  }
+}
+@media (max-width: 576px) {
+  .header .nav-mobile {
+    display: block;
+  }
+}
+.header .nav-mobile .nav-list {
+  margin-bottom: 30px;
+}
+.header .nav-mobile .nav-list .nav-item {
   font-size: 14px;
   font-weight: 700;
   color: #fff;
   letter-spacing: 0.2px;
   line-height: 24px;
+}
+.header .nav-mobile .nav-logo {
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.1px;
+  line-height: 32px;
+  margin-bottom: 30px;
+}
+.header .nav-mobile .nav-login {
+  font-size: 14px;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+  margin-bottom: 30px;
 }
 
 .footer {
